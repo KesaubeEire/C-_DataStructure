@@ -8,6 +8,9 @@ namespace _003字符串
 {
     class StringDS
     {
+        static void Main(string[] arg)
+        { }
+
         private char[] data;
         //用来存放字符串中的字符
 
@@ -40,7 +43,6 @@ namespace _003字符串
                 return this.GetLength();
             }
         }
-
         /// <summary>
         /// 索引器，根据索引访问字符的索引器
         /// </summary>
@@ -169,35 +171,25 @@ namespace _003字符串
             bool isEqual = true;
             for (int i = 0; i <= this.len + s.len; i++)
             {
-                isEqual = true;//*
+                isEqual = true;
                 for (int j = 0; j < i + s.len; j++)
                 {
                     if (this[j] != s[j - i])
                     {
                         isEqual = false;
-                        break;//*
+                        break;
                     }
                 }
                 if (isEqual)
                 {
                     return i;
                 }
-                /*else
+                else
                 {
                     continue;
                 }
             }
             return -1;
         }
-
-
-
-
-
-
-
-
     }
-
-
 }

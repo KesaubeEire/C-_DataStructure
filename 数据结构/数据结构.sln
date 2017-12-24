@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_栈", "002_栈\002_栈.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003字符串", "003字符串\003字符串.csproj", "{4493270B-9793-4D46-8F01-2BDCAFDBE889}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004数组", "004数组\004数组.csproj", "{9F06415D-01FD-467F-A43F-C283728D1311}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "排序01", "排序01\排序01.csproj", "{DA37F349-8B43-413D-94D1-4A1BBE7DFF28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{4493270B-9793-4D46-8F01-2BDCAFDBE889}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4493270B-9793-4D46-8F01-2BDCAFDBE889}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4493270B-9793-4D46-8F01-2BDCAFDBE889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F06415D-01FD-467F-A43F-C283728D1311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F06415D-01FD-467F-A43F-C283728D1311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F06415D-01FD-467F-A43F-C283728D1311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F06415D-01FD-467F-A43F-C283728D1311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA37F349-8B43-413D-94D1-4A1BBE7DFF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA37F349-8B43-413D-94D1-4A1BBE7DFF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA37F349-8B43-413D-94D1-4A1BBE7DFF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA37F349-8B43-413D-94D1-4A1BBE7DFF28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

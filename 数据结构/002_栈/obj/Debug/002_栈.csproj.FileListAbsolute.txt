@@ -4,3 +4,9 @@ D:\DaSan\C#\DataStruct_C#\数据结构\002_栈\bin\Debug\002_栈.pdb
 D:\DaSan\C#\DataStruct_C#\数据结构\002_栈\obj\Debug\002_栈.csprojResolveAssemblyReference.cache
 D:\DaSan\C#\DataStruct_C#\数据结构\002_栈\obj\Debug\002_栈.exe
 D:\DaSan\C#\DataStruct_C#\数据结构\002_栈\obj\Debug\002_栈.pdb
+D:\DaSan\C#\DS_C#\数据结构\002_栈\bin\Debug\002_栈.exe.config
+D:\DaSan\C#\DS_C#\数据结构\002_栈\bin\Debug\002_栈.exe
+D:\DaSan\C#\DS_C#\数据结构\002_栈\bin\Debug\002_栈.pdb
+D:\DaSan\C#\DS_C#\数据结构\002_栈\obj\Debug\002_栈.csprojResolveAssemblyReference.cache
+D:\DaSan\C#\DS_C#\数据结构\002_栈\obj\Debug\002_栈.exe
+D:\DaSan\C#\DS_C#\数据结构\002_栈\obj\Debug\002_栈.pdb
