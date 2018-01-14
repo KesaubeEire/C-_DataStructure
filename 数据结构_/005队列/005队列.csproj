@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="CSequeue.cs" />
     <Compile Include="IQueue.cs" />
+    <Compile Include="LinkQueue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

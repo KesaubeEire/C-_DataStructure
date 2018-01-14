@@ -31,8 +31,8 @@ namespace _001_线性表
         /// <returns></returns>
         public int GetLength()
         {
-            return count;
             Console.WriteLine("count:" + count);
+            return count;
         }
 
 

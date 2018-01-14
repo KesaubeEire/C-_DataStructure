@@ -14,7 +14,7 @@ namespace _005队列
     {
         int Getlength();//取队列长度
         bool IsEmpty();//判断是否为空
-        bool IsFull();//判断队列是否已满
+        //bool IsFull();//判断队列是否已满
         void Clear();//清空队列
         void In(T item);//将item入队
         T Out();//出队,队列头元素从队伍被取出
