@@ -1,0 +1,5 @@
+/Users/w/GitSets/C#DS/数据结构_/006树结构/bin/Debug/006树结构.exe
+/Users/w/GitSets/C#DS/数据结构_/006树结构/bin/Debug/006树结构.pdb
+/Users/w/GitSets/C#DS/数据结构_/006树结构/obj/Debug/006树结构.csproj.CoreCompileInputs.cache
+/Users/w/GitSets/C#DS/数据结构_/006树结构/obj/Debug/006树结构.exe
+/Users/w/GitSets/C#DS/数据结构_/006树结构/obj/Debug/006树结构.pdb
