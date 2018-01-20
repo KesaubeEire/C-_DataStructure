@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="433f627c-80fc-4644-871c-3f4c538df8f7" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/006树结构/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+              <folding>
+                <marker date="1516384556000" expanded="false" signature="6:115" ph="..." />
+                <marker date="1516384556000" expanded="true" signature="130:10386" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="152:2022" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="205:891" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="276:704" ph="/* Test ... */" />
+                <marker date="1516384556000" expanded="true" signature="717:812" ph="/* BiTree&lt;int&gt; nini = RandomGenerator_BitTree(100); ... */" />
+                <marker date="1516384556000" expanded="true" signature="993:2013" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="1711:1871" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="2029:2077" ph="/// 二叉树的节点类 ... " />
+                <marker date="1516384556000" expanded="true" signature="2095:3200" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="2268:2502" ph="/// Construction of the Tree Node ... " />
+                <marker date="1516384556000" expanded="true" signature="2553:2647" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="2691:2792" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="2819:2941" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="2963:3092" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="3101:3194" ph="/* ========================CONSTRUCTION FIELD ... */" />
+                <marker date="1516384556000" expanded="true" signature="3221:10384" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="3336:3381" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="3410:3494" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="3547:3695" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="3704:3797" ph="/* ========================CONSTRUCTION FIELD ... */" />
+                <marker date="1516384556000" expanded="true" signature="3807:3952" ph="/// 判断是否是空二叉树 ... " />
+                <marker date="1516384556000" expanded="true" signature="3982:4106" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="4116:4211" ph="/// 获取根节点 ... " />
+                <marker date="1516384556000" expanded="true" signature="4241:4286" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="4296:4437" ph="/// 获取节点的左子节点 ... " />
+                <marker date="1516384556000" expanded="true" signature="4481:4530" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="4539:4680" ph="/// 获取节点的右子节点 ... " />
+                <marker date="1516384556000" expanded="true" signature="4724:4773" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="4782:4934" ph="/// 将节点p的左子树插入值为val的新节点 ... " />
+                <marker date="1516384556000" expanded="true" signature="4990:5058" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="5067:5219" ph="/// 将节点p的右子树插入值为val的新节点 ... " />
+                <marker date="1516384556000" expanded="true" signature="5275:5343" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="5352:5495" ph="/// 若节点不为空，则删除该节点的左子树 ... " />
+                <marker date="1516384556000" expanded="true" signature="5544:5761" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="5605:5662" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="5770:5913" ph="/// 若节点不为空，则删除该节点的右子树 ... " />
+                <marker date="1516384556000" expanded="true" signature="5962:6179" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="6023:6080" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="6188:6401" ph="/// 判断是否为叶子节点，即子节点存在但不存在子节点的子节点Is the leaf. ... " />
+                <marker date="1516384556000" expanded="true" signature="6446:6577" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="6586:6809" ph="/* ========================FUNCTION FIELD ... */" />
+                <marker date="1516384556000" expanded="true" signature="6819:6907" ph="/// 先序遍历，若二叉树为空，则结束遍历，否则： ... " />
+                <marker date="1516384556000" expanded="true" signature="6987:7594" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="7052:7584" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="7230:7379" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="7420:7569" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="7604:7692" ph="/// 中序遍历，若二叉树为空，则结束遍历，否则： ... " />
+                <marker date="1516384556000" expanded="true" signature="7770:8191" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="7835:8181" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="8201:8289" ph="/// 后序遍历，若二叉树为空，则结束遍历，否则： ... " />
+                <marker date="1516384556000" expanded="true" signature="8371:8742" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="8436:8732" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="8752:8860" ph="/// 层次遍历，我自己写的，完了对比对比能不能用 ... " />
+                <marker date="1516384556000" expanded="true" signature="8910:9693" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="9062:9486" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="9207:9319" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="9360:9472" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="9516:9682" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="9581:9668" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="9747:10305" ph="{...}" />
+                <marker date="1516384556000" expanded="true" signature="9925:10295" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/006树结构/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/006树结构/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2180" />
+    <option name="y" value="109" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="数据结构 (7 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="数据结构 (7 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="006树结构" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/006树结构/bin/Debug/006树结构.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/006树结构/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/006树结构/006树结构.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.6.1" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="433f627c-80fc-4644-871c-3f4c538df8f7" name="Default" comment="" />
+      <created>1516451080398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516451080398</updated>
+      <workItem from="1516451082586" duration="145000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="145000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="23" width="1080" height="1897" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11068493" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16481481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/006树结构/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+          <folding>
+            <marker date="1516384556000" expanded="false" signature="6:115" ph="..." />
+            <marker date="1516384556000" expanded="true" signature="130:10386" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="152:2022" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="205:891" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="276:704" ph="/* Test ... */" />
+            <marker date="1516384556000" expanded="true" signature="717:812" ph="/* BiTree&lt;int&gt; nini = RandomGenerator_BitTree(100); ... */" />
+            <marker date="1516384556000" expanded="true" signature="993:2013" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="1711:1871" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="2029:2077" ph="/// 二叉树的节点类 ... " />
+            <marker date="1516384556000" expanded="true" signature="2095:3200" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="2268:2502" ph="/// Construction of the Tree Node ... " />
+            <marker date="1516384556000" expanded="true" signature="2553:2647" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="2691:2792" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="2819:2941" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="2963:3092" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="3101:3194" ph="/* ========================CONSTRUCTION FIELD ... */" />
+            <marker date="1516384556000" expanded="true" signature="3221:10384" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="3336:3381" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="3410:3494" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="3547:3695" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="3704:3797" ph="/* ========================CONSTRUCTION FIELD ... */" />
+            <marker date="1516384556000" expanded="true" signature="3807:3952" ph="/// 判断是否是空二叉树 ... " />
+            <marker date="1516384556000" expanded="true" signature="3982:4106" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="4116:4211" ph="/// 获取根节点 ... " />
+            <marker date="1516384556000" expanded="true" signature="4241:4286" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="4296:4437" ph="/// 获取节点的左子节点 ... " />
+            <marker date="1516384556000" expanded="true" signature="4481:4530" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="4539:4680" ph="/// 获取节点的右子节点 ... " />
+            <marker date="1516384556000" expanded="true" signature="4724:4773" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="4782:4934" ph="/// 将节点p的左子树插入值为val的新节点 ... " />
+            <marker date="1516384556000" expanded="true" signature="4990:5058" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="5067:5219" ph="/// 将节点p的右子树插入值为val的新节点 ... " />
+            <marker date="1516384556000" expanded="true" signature="5275:5343" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="5352:5495" ph="/// 若节点不为空，则删除该节点的左子树 ... " />
+            <marker date="1516384556000" expanded="true" signature="5544:5761" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="5605:5662" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="5770:5913" ph="/// 若节点不为空，则删除该节点的右子树 ... " />
+            <marker date="1516384556000" expanded="true" signature="5962:6179" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="6023:6080" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="6188:6401" ph="/// 判断是否为叶子节点，即子节点存在但不存在子节点的子节点Is the leaf. ... " />
+            <marker date="1516384556000" expanded="true" signature="6446:6577" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="6586:6809" ph="/* ========================FUNCTION FIELD ... */" />
+            <marker date="1516384556000" expanded="true" signature="6819:6907" ph="/// 先序遍历，若二叉树为空，则结束遍历，否则： ... " />
+            <marker date="1516384556000" expanded="true" signature="6987:7594" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="7052:7584" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="7230:7379" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="7420:7569" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="7604:7692" ph="/// 中序遍历，若二叉树为空，则结束遍历，否则： ... " />
+            <marker date="1516384556000" expanded="true" signature="7770:8191" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="7835:8181" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="8201:8289" ph="/// 后序遍历，若二叉树为空，则结束遍历，否则： ... " />
+            <marker date="1516384556000" expanded="true" signature="8371:8742" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="8436:8732" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="8752:8860" ph="/// 层次遍历，我自己写的，完了对比对比能不能用 ... " />
+            <marker date="1516384556000" expanded="true" signature="8910:9693" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="9062:9486" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="9207:9319" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="9360:9472" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="9516:9682" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="9581:9668" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="9747:10305" ph="{...}" />
+            <marker date="1516384556000" expanded="true" signature="9925:10295" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
