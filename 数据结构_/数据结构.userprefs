@@ -2,12 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.005队列 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="006树结构/Program.cs">
     <Files>
-      <File FileName="005队列/CSequeue.cs" Line="1" Column="1" />
       <File FileName="005队列/IQueue.cs" Line="1" Column="1" />
-      <File FileName="005队列/LinkQueue.cs" Line="1" Column="1" />
-      <File FileName="005队列/Program.cs" Line="1" Column="1" />
-      <File FileName="005队列/App.config" Line="1" Column="1" />
-      <File FileName="006树结构/Program.cs" Line="10" Column="10" />
+      <File FileName="006树结构/Program.cs" Line="5" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
