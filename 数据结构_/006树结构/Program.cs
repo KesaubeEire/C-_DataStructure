@@ -34,6 +34,7 @@ namespace 树结构
         static BiTree<int> RandomGenerator_BitTree(int randommax_numrange, int randommax_layer = 5)
         {
             int trigger = 0;
+
             int RR(int max)
             {
                 Random ran = new Random();
@@ -41,6 +42,7 @@ namespace 树结构
                 a = ran.Next(0, max);
                 return a;
             }
+
             void Regain(Node<int> root)
             {
                 if (trigger == randommax_layer) return;
@@ -51,22 +53,18 @@ namespace 树结构
                 if (trigger <= randommax_layer)
                     Regain(BiTree<int>.InsertR(RR(randommax_numrange), root));
             }
+
             if (randommax_layer < 5 || randommax_layer > 11)
             {
                 Console.WriteLine("no less than 5 layers and no more than 11 layers");
                 return default(BiTree<int>);
             }
+
             BiTree<int> beep = new BiTree<int>(RR(randommax_numrange));
             Regain(beep.Head);
 
             return beep;
-
-
-
         }
-
-
-
     }
 
 
@@ -77,8 +75,8 @@ namespace 树结构
     {
         public T Data; //数据域
 
-        public Node<T> LChild;//左子树
-        public Node<T> RChild;//右子树
+        public Node<T> LChild; //左子树
+        public Node<T> RChild; //右子树
 
 
         //========================CONSTRUCTION FIELD
@@ -95,24 +93,28 @@ namespace 树结构
             LChild = lp;
             RChild = rp;
         }
+
         public Node(Node<T> lp, Node<T> rp)
         {
             Data = default(T);
             LChild = lp;
             RChild = rp;
         }
+
         public Node(T val)
         {
             Data = val;
             LChild = default(Node<T>);
             RChild = default(Node<T>);
         }
+
         public Node()
         {
             Data = default(T);
             LChild = default(Node<T>);
             RChild = default(Node<T>);
         }
+
         //========================CONSTRUCTION FIELD
         //========================FUNCTION FIELD
     }
@@ -122,17 +124,18 @@ namespace 树结构
         public Node<T> Head;
 
 
-
         //========================CONSTRUCTION FIELD
         public BiTree()
         {
             Head = null;
         }
+
         public BiTree(T val)
         {
             Node<T> p = new Node<T>(val);
             Head = p;
         }
+
         public BiTree(T val, Node<T> lp, Node<T> rp)
         {
             Node<T> p = new Node<T>(val, lp, rp);
@@ -148,7 +151,7 @@ namespace 树结构
         /// <returns><c>true</c>, if empty was ised, <c>false</c> otherwise.</returns>
         public bool isEmpty()
         {
-            if (Head == null) return true;//不理解为什么这里是head == null 而不是子节点
+            if (Head == null) return true; //不理解为什么这里是head == null 而不是子节点
             else return false;
         }
 
@@ -170,6 +173,7 @@ namespace 树结构
         {
             return p.LChild;
         }
+
         /// <summary>
         /// 获取节点的右子节点
         /// </summary>
@@ -179,6 +183,7 @@ namespace 树结构
         {
             return p.RChild;
         }
+
         /// <summary>
         /// 将节点p的左子树插入值为val的新节点
         /// </summary>
@@ -188,6 +193,7 @@ namespace 树结构
         {
             return p.LChild = new Node<T>(val);
         }
+
         /// <summary>
         /// 将节点p的右子树插入值为val的新节点
         /// </summary>
@@ -197,6 +203,7 @@ namespace 树结构
         {
             return p.RChild = new Node<T>(val);
         }
+
         /// <summary>
         /// 若节点不为空，则删除该节点的左子树
         /// </summary>
@@ -208,10 +215,12 @@ namespace 树结构
             {
                 return null;
             }
+
             Node<T> tmp = p.LChild;
             p.LChild = null;
             return tmp;
         }
+
         /// <summary>
         /// 若节点不为空，则删除该节点的右子树
         /// </summary>
@@ -223,10 +232,12 @@ namespace 树结构
             {
                 return null;
             }
+
             Node<T> tmp = p.RChild;
             p.RChild = null;
             return tmp;
         }
+
         /// <summary>
         /// 判断是否为叶子节点，即子节点存在但不存在子节点的子节点Is the leaf.
         /// </summary>
@@ -248,6 +259,7 @@ namespace 树结构
         /// 2.先序遍历左子树
         /// 3.先序遍历右子树
         private int id_Line_Pre = 0;
+
         public void PreOrder(Node<T> root)
         {
             if (root == null) return;
@@ -261,13 +273,13 @@ namespace 树结构
                     PreOrder(root.LChild);
                     id_Line_Pre--;
                 }
+
                 if (root.RChild != null)
                 {
                     id_Line_Pre++;
                     PreOrder(root.RChild);
                     id_Line_Pre--;
                 }
-
             }
         }
 
@@ -276,6 +288,7 @@ namespace 树结构
         /// 2.访问根节点
         /// 3.中序遍历右子树
         private int id_Line_In = 0;
+
         public void InOrder(Node<T> root)
         {
             if (root == null) return;
@@ -297,6 +310,7 @@ namespace 树结构
         /// 2.后序遍历右子树
         /// 3.访问根节点
         private int id_Line_Post = 0;
+
         public void PostOrder(Node<T> root)
         {
             if (root == null) return;
@@ -333,21 +347,21 @@ namespace 树结构
                     sq.Enqueue(root.LChild);
                     trigger++;
                 }
+
                 if (root.RChild != null)
                 {
                     sq.Enqueue(root.RChild);
                     trigger++;
                 }
             }
+
             if (trigger != 0)
             {
-
                 for (int i = trigger; i > 0; i--)
                 {
                     LevelOrder_Mine(sq.Dequeue());
                 }
             }
-
         }
 
         public void LevelOrder_Teacher(Node<T> root)
@@ -368,7 +382,6 @@ namespace 树结构
                 if (tmp.RChild != null) sq.Enqueue(tmp.RChild);
             }
         }
-
 
 
         //========================ESSENTIAL FUNCTION FIELD - 遍历二叉树的方法
