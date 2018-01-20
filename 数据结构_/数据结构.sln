@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005队列", "005队列\005�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006树结构", "006树结构\006树结构.csproj", "{AEE86AC7-697C-4DFA-BCEF-46AEC12D6C26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_007图", "_007图\_007图.csproj", "{306E0E07-DAD8-4847-B834-9934CBE6907A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,18 @@ Global
 		{AEE86AC7-697C-4DFA-BCEF-46AEC12D6C26}.Release|x64.Build.0 = Release|Any CPU
 		{AEE86AC7-697C-4DFA-BCEF-46AEC12D6C26}.Release|x86.ActiveCfg = Release|Any CPU
 		{AEE86AC7-697C-4DFA-BCEF-46AEC12D6C26}.Release|x86.Build.0 = Release|Any CPU
+		{306E0E07-DAD8-4847-B834-9934CBE6907A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{306E0E07-DAD8-4847-B834-9934CBE6907A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{306E0E07-DAD8-4847-B834-9934CBE6907A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{306E0E07-DAD8-4847-B834-9934CBE6907A}.Debug|x64.Build.0 = Debug|Any CPU
+		{306E0E07-DAD8-4847-B834-9934CBE6907A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{306E0E07-DAD8-4847-B834-9934CBE6907A}.Debug|x86.Build.0 = Debug|Any CPU
+		{306E0E07-DAD8-4847-B834-9934CBE6907A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{306E0E07-DAD8-4847-B834-9934CBE6907A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{306E0E07-DAD8-4847-B834-9934CBE6907A}.Release|x64.ActiveCfg = Release|Any CPU
+		{306E0E07-DAD8-4847-B834-9934CBE6907A}.Release|x64.Build.0 = Release|Any CPU
+		{306E0E07-DAD8-4847-B834-9934CBE6907A}.Release|x86.ActiveCfg = Release|Any CPU
+		{306E0E07-DAD8-4847-B834-9934CBE6907A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
