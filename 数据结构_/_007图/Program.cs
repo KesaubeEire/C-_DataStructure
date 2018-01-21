@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Reflection.Emit;
+using System.Security;
 
 namespace _007图
 {
@@ -9,6 +11,8 @@ namespace _007图
             Console.WriteLine("233");
         }
     }
+
+    #region 基本（领接矩阵）图
 
     /// <summary>
     /// 结点构造
@@ -36,16 +40,39 @@ namespace _007图
     /// <typeparam name="T"></typeparam>
     public interface IGragh<T>
     {
-        int GetNumOfVertex(); //获取顶点的个数
-        int GetNumOfEdge(); //获取边或弧的数量
+        /// <summary>
+        /// 获取顶点的个数
+        /// </summary>
+        /// <returns></returns>
+        int GetNumOfVertex();
 
-        //在两个顶点之间添加一条权为v的边或弧
+        /// <summary>
+        /// 获取边或弧的数量
+        /// </summary>
+        /// <returns></returns>
+        int GetNumOfEdge();
+
+        /// <summary>
+        /// 在两个顶点之间添加一条权为v的边或弧
+        /// </summary>
+        /// <param name="v1"></param>
+        /// <param name="v2"></param>
+        /// <param name="v"></param>
         void SetEdge(Node<T> v1, Node<T> v2, int v);
 
-        //删除顶点之间的边或弧
+        /// <summary>
+        /// 删除顶点之间的边或弧
+        /// </summary>
+        /// <param name="v1"></param>
+        /// <param name="v2"></param>
         void DelEdge(Node<T> v1, Node<T> v2);
 
-        //判断两个顶点之间是否有边或弧
+        /// <summary>
+        /// 判断两个顶点之间是否有边或弧
+        /// </summary>
+        /// <param name="v1"></param>
+        /// <param name="v2"></param>
+        /// <returns></returns>
         bool IsEdge(Node<T> v1, Node<T> v2);
     }
 
@@ -240,4 +267,181 @@ namespace _007图
 
         //---------------------
     }
+
+    #endregion
+
+    #region 领接表图
+
+    /// <summary>
+    /// 领接表的存储结构节点图
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    public class adjustListNode<T>
+    {
+        private int adjvex; //领接顶点
+        private adjustListNode<T> next; //下一个领接顶点
+
+        public int Adjvex
+        {
+            get => adjvex;
+            set => adjvex = value;
+        }
+
+        public adjustListNode<T> Next
+        {
+            get => next;
+            set => next = value;
+        }
+
+        public adjustListNode(int vex)
+        {
+            adjvex = vex;
+            next = null;
+        }
+    }
+
+    /// <summary>
+    /// 顶点节点类，包括了顶点的数据信息和存储结构
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    public class VexNode<T>
+    {
+        private Node<T> data;
+        private adjustListNode<T> firstAdj;
+
+        public Node<T> Data
+        {
+            get => data;
+            set => data = value;
+        }
+
+        public adjustListNode<T> FirstAdj
+        {
+            get => firstAdj;
+            set => firstAdj = value;
+        }
+
+        public VexNode(Node<T> data)
+        {
+            this.data = data;
+            firstAdj = null;
+        }
+
+        public VexNode(Node<T> data, adjustListNode<T> firstAdj)
+        {
+            this.data = data;
+            this.firstAdj = firstAdj;
+        }
+
+        public VexNode()
+        {
+            data = null;
+            firstAdj = null;
+        }
+    }
+
+    public class GraphAdjustList<T> : IGragh<T>
+    {
+        //-------------------------------------------Properties
+        private VexNode<T>[] adjList; //领接表数组
+
+        public VexNode<T> this[int index]
+        {
+            get => adjList[index];
+            set => adjList[index] = value;
+        }
+
+        //-------------------------------------------Functions
+        /// <summary>
+        /// 构造函数
+        /// </summary>
+        /// <param name="Nodes">节点数组</param>
+        public GraphAdjustList(Node<T>[] Nodes)
+        {
+            adjList = new VexNode<T>[Nodes.Length];
+            for (int i = 0; i < Nodes.Length; i++)
+            {
+                adjList[i].Data = Nodes[i];
+                adjList[i].FirstAdj = null;
+            }
+        }
+
+        public int GetNumOfVertex()
+        {
+            return adjList.Length;
+        }
+
+        public int GetNumOfEdge()
+        {
+            int i = 0;
+            foreach (VexNode<T> node in adjList)
+            {
+                adjustListNode<T> p = node.FirstAdj;
+                while (p != null)
+                {
+                    i++;
+                    p = p.Next;
+                }
+            }
+
+            return i / 2;
+        }
+
+        public bool isNode(Node<T> v)
+        {
+            foreach (VexNode<T> node in adjList)
+            {
+                if (v.Equals(node.Data))
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        public int GetIndex(Node<T> v)
+        {
+            int i = -1;
+            if (isNode(v))
+            {
+                for (i = 0; i < adjList.Length; i++)
+                {
+                    if (adjList[i].Data.Equals(v)) return i;
+                }
+            }
+
+            return i;
+        }
+
+        public void SetEdge(Node<T> v1, Node<T> v2, int v)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void DelEdge(Node<T> v1, Node<T> v2)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool IsEdge(Node<T> v1, Node<T> v2)
+        {
+            if ((!isNode(v1)) || (!isNode(v2)))
+            {
+                Console.WriteLine("顶点出错，存在不属于图的顶点");
+                return false;
+            }
+
+            adjustListNode<T> p = adjList[GetIndex(v1)].FirstAdj;
+            foreach (VexNode<T> vexNode in adjList)
+            {
+                if (p.Adjvex == GetIndex(v2)) return true;
+                p = p.Next;
+            }
+
+            return false;
+        }
+    }
+
+    #endregion
 }

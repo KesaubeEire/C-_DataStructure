@@ -2,6 +2,8 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/_007图/Program.cs" line="32" />
+    <bookmark url="file://$PROJECT_DIR$/_007图/Program.cs" line="416" />
+    <bookmark url="file://$PROJECT_DIR$/_007图/Program.cs" line="421" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="433f627c-80fc-4644-871c-3f4c538df8f7" name="Default" comment="" />
@@ -17,54 +19,93 @@
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_007图/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="1266">
+              <caret line="421" column="7" lean-forward="false" selection-start-line="421" selection-start-column="7" selection-end-line="421" selection-end-column="7" />
               <folding>
-                <marker date="1516461456000" expanded="true" signature="30:5812" ph="{...}" />
-                <marker date="1516461456000" expanded="true" signature="59:176" ph="{...}" />
-                <marker date="1516461456000" expanded="true" signature="112:170" ph="{...}" />
-                <marker date="1516461456000" expanded="false" signature="182:268" ph="/// 结点构造 ... " />
-                <marker date="1516461456000" expanded="true" signature="293:498" ph="{...}" />
-                <marker date="1516461456000" expanded="true" signature="346:424" ph="{...}" />
-                <marker date="1516461456000" expanded="true" signature="450:492" ph="{...}" />
-                <marker date="1516461456000" expanded="false" signature="504:590" ph="/// 图的接口 ... " />
-                <marker date="1516461456000" expanded="true" signature="621:934" ph="{...}" />
-                <marker date="1516461456000" expanded="true" signature="696:736" ph="/* 获取边或弧的数量 ... */" />
-                <marker date="1516461456000" expanded="false" signature="940:1034" ph="/// 一个无向图的领接矩阵类  ... " />
-                <marker date="1516461456000" expanded="false" signature="1078:5810" ph="{...}" />
-                <marker date="1516461456000" expanded="true" signature="1225:1305" ph="{...}" />
-                <marker date="1516461456000" expanded="false" signature="1401:1496" ph="/// 构造函数 ... " />
-                <marker date="1516461456000" expanded="true" signature="1530:1642" ph="{...}" />
-                <marker date="1516461456000" expanded="false" signature="1652:1818" ph="/// 获取索引为index的结点的信息 ... " />
-                <marker date="1516461456000" expanded="true" signature="1861:1914" ph="{...}" />
-                <marker date="1516461456000" expanded="false" signature="1924:2079" ph="/// 设置索引为index的结点为v结点 ... " />
-                <marker date="1516461456000" expanded="true" signature="2129:2179" ph="{...}" />
-                <marker date="1516461456000" expanded="false" signature="2189:2347" ph="/// 设置索引为index的结点的值为v ... " />
-                <marker date="1516461456000" expanded="true" signature="2391:2446" ph="{...}" />
-                <marker date="1516461456000" expanded="false" signature="2456:2667" ph="/// 获取mat[index1,index2]的值，即判断这两个结点之间有没有相互连接 ... " />
-                <marker date="1516461456000" expanded="true" signature="2717:2777" ph="{...}" />
-                <marker date="1516461456000" expanded="false" signature="2787:2951" ph="/// 设置mat[index1,index2]的值，即让这两个点连接 ... " />
-                <marker date="1516461456000" expanded="true" signature="3002:3096" ph="{...}" />
-                <marker date="1516461456000" expanded="false" signature="3106:3234" ph="/// 判断V是否是图的顶点 ... " />
-                <marker date="1516461456000" expanded="true" signature="3272:3500" ph="{...}" />
-                <marker date="1516461456000" expanded="true" signature="3328:3463" ph="{...}" />
-                <marker date="1516461456000" expanded="true" signature="3380:3449" ph="{...}" />
-                <marker date="1516461456000" expanded="false" signature="3510:3648" ph="/// 获取顶点v在顶点数组中的索引 ... " />
-                <marker date="1516461456000" expanded="true" signature="3687:3883" ph="{...}" />
-                <marker date="1516461456000" expanded="true" signature="3777:3850" ph="{...}" />
-                <marker date="1516461456000" expanded="true" signature="3957:4010" ph="{...}" />
-                <marker date="1516461456000" expanded="true" signature="4045:4091" ph="{...}" />
-                <marker date="1516461456000" expanded="false" signature="4101:4309" ph="/// 本来是给两个顶点之间加一个权值为多少的边的，但是这是无向表，权值没用，so，改成了链接两个表 ... " />
-                <marker date="1516461456000" expanded="true" signature="4361:4578" ph="{...}" />
-                <marker date="1516461456000" expanded="true" signature="4415:4519" ph="{...}" />
-                <marker date="1516461456000" expanded="true" signature="4638:4889" ph="{...}" />
-                <marker date="1516461456000" expanded="true" signature="4692:4796" ph="{...}" />
-                <marker date="1516461456000" expanded="false" signature="4899:5030" ph="/// 删除结点的边 ... " />
-                <marker date="1516461456000" expanded="true" signature="5082:5268" ph="{...}" />
-                <marker date="1516461456000" expanded="true" signature="5124:5258" ph="{...}" />
-                <marker date="1516461456000" expanded="false" signature="5278:5447" ph="/// 判断两个顶点之间是否有边 ... " />
-                <marker date="1516461456000" expanded="true" signature="5498:5771" ph="{...}" />
-                <marker date="1516461456000" expanded="true" signature="5552:5662" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="6:66" ph="..." />
+                <marker date="1516568508000" expanded="true" signature="83:10501" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="112:229" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="165:223" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="235:6515" ph="基本（领接矩阵）图" />
+                <marker date="1516568508000" expanded="false" signature="258:344" ph="/// 结点构造 ... " />
+                <marker date="1516568508000" expanded="false" signature="369:574" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="422:500" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="526:568" ph="{...}" />
+                <marker date="1516568508000" expanded="false" signature="580:666" ph="/// 图的接口 ... " />
+                <marker date="1516568508000" expanded="true" signature="697:1623" ph="{...}" />
+                <marker date="1516568508000" expanded="false" signature="712:800" ph="/// 获取顶点的个数 ... " />
+                <marker date="1516568508000" expanded="false" signature="840:929" ph="/// 获取边或弧的数量 ... " />
+                <marker date="1516568508000" expanded="false" signature="967:1147" ph="/// 在两个顶点之间添加一条权为v的边或弧 ... " />
+                <marker date="1516568508000" expanded="false" signature="1210:1345" ph="/// 删除顶点之间的边或弧 ... " />
+                <marker date="1516568508000" expanded="false" signature="1401:1572" ph="/// 判断两个顶点之间是否有边或弧 ... " />
+                <marker date="1516568508000" expanded="false" signature="1629:1723" ph="/// 一个无向图的领接矩阵类  ... " />
+                <marker date="1516568508000" expanded="false" signature="1767:6499" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="1914:1994" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="2090:2185" ph="/// 构造函数 ... " />
+                <marker date="1516568508000" expanded="true" signature="2219:2331" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="2341:2507" ph="/// 获取索引为index的结点的信息 ... " />
+                <marker date="1516568508000" expanded="true" signature="2550:2603" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="2613:2768" ph="/// 设置索引为index的结点为v结点 ... " />
+                <marker date="1516568508000" expanded="true" signature="2818:2868" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="2878:3036" ph="/// 设置索引为index的结点的值为v ... " />
+                <marker date="1516568508000" expanded="true" signature="3080:3135" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="3145:3356" ph="/// 获取mat[index1,index2]的值，即判断这两个结点之间有没有相互连接 ... " />
+                <marker date="1516568508000" expanded="true" signature="3406:3466" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="3476:3640" ph="/// 设置mat[index1,index2]的值，即让这两个点连接 ... " />
+                <marker date="1516568508000" expanded="true" signature="3691:3785" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="3795:3923" ph="/// 判断V是否是图的顶点 ... " />
+                <marker date="1516568508000" expanded="true" signature="3961:4189" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="4017:4152" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="4069:4138" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="4199:4337" ph="/// 获取顶点v在顶点数组中的索引 ... " />
+                <marker date="1516568508000" expanded="true" signature="4376:4572" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="4466:4539" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="4646:4699" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="4734:4780" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="4790:4998" ph="/// 本来是给两个顶点之间加一个权值为多少的边的，但是这是无向表，权值没用，so，改成了链接两个表 ... " />
+                <marker date="1516568508000" expanded="true" signature="5050:5267" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="5104:5208" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="5327:5578" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="5381:5485" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="5588:5719" ph="/// 删除结点的边 ... " />
+                <marker date="1516568508000" expanded="true" signature="5771:5957" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="5813:5947" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="5967:6136" ph="/// 判断两个顶点之间是否有边 ... " />
+                <marker date="1516568508000" expanded="true" signature="6187:6460" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="6241:6351" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="6521:10499" ph="领接表图" />
+                <marker date="1516568508000" expanded="false" signature="6539:6632" ph="/// 领接表的存储结构节点图 ... " />
+                <marker date="1516568508000" expanded="true" signature="6667:7101" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="6785:6867" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="6906:6984" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="7024:7095" ph="{...}" />
+                <marker date="1516568508000" expanded="false" signature="7107:7210" ph="/// 顶点节点类，包括了顶点的数据信息和存储结构 ... " />
+                <marker date="1516568508000" expanded="true" signature="7238:7931" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="7347:7425" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="7468:7554" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="7592:7671" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="7737:7825" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="7851:7925" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="7980:10483" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="8139:8237" ph="{...}" />
+                <marker date="1516568508000" expanded="false" signature="8310:8408" ph="/// 构造函数 ... " />
+                <marker date="1516568508000" expanded="true" signature="8456:8695" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="8569:8685" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="8732:8787" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="8822:9149" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="8904:9112" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="9005:9098" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="9188:9422" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="9247:9385" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="9302:9371" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="9462:9734" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="9523:9701" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="9590:9687" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="9794:9863" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="9916:9985" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="10037:10477" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="10095:10206" ph="{...}" />
+                <marker date="1516568508000" expanded="true" signature="10325:10440" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -102,7 +143,7 @@
     <option name="x" value="1920" />
     <option name="y" value="23" />
     <option name="width" value="1080" />
-    <option name="height" value="1897" />
+    <option name="height" value="1893" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -119,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -127,12 +167,18 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="数据结构 (8 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="数据结构 (8 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="_007图" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,12 +228,13 @@
       <option name="presentableId" value="Default" />
       <updated>1516451080398</updated>
       <workItem from="1516451082586" duration="598000" />
-      <workItem from="1516453989326" duration="7144000" />
+      <workItem from="1516453989326" duration="8672000" />
+      <workItem from="1516551685823" duration="5131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7742000" />
+    <option name="totallyTimeSpent" value="14401000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -199,8 +246,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="23" width="1080" height="1897" extended-state="6" />
-    <editor active="true" />
+    <frame x="1920" y="23" width="1080" height="1893" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -212,10 +258,8 @@
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13055556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329863" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12493151" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -224,6 +268,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -243,74 +289,103 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_007图/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="243" column="4" lean-forward="true" selection-start-line="243" selection-start-column="4" selection-end-line="243" selection-end-column="4" />
+          <folding>
+            <marker date="1516568508000" expanded="true" signature="6:66" ph="..." />
+            <marker date="1516568508000" expanded="true" signature="83:10501" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="112:229" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="165:223" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="235:6515" ph="基本（领接矩阵）图" />
+            <marker date="1516568508000" expanded="false" signature="258:344" ph="/// 结点构造 ... " />
+            <marker date="1516568508000" expanded="false" signature="369:574" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="422:500" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="526:568" ph="{...}" />
+            <marker date="1516568508000" expanded="false" signature="580:666" ph="/// 图的接口 ... " />
+            <marker date="1516568508000" expanded="true" signature="697:1623" ph="{...}" />
+            <marker date="1516568508000" expanded="false" signature="712:800" ph="/// 获取顶点的个数 ... " />
+            <marker date="1516568508000" expanded="false" signature="840:929" ph="/// 获取边或弧的数量 ... " />
+            <marker date="1516568508000" expanded="false" signature="967:1147" ph="/// 在两个顶点之间添加一条权为v的边或弧 ... " />
+            <marker date="1516568508000" expanded="false" signature="1210:1345" ph="/// 删除顶点之间的边或弧 ... " />
+            <marker date="1516568508000" expanded="false" signature="1401:1572" ph="/// 判断两个顶点之间是否有边或弧 ... " />
+            <marker date="1516568508000" expanded="false" signature="1629:1723" ph="/// 一个无向图的领接矩阵类  ... " />
+            <marker date="1516568508000" expanded="false" signature="1767:6499" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="1914:1994" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="2090:2185" ph="/// 构造函数 ... " />
+            <marker date="1516568508000" expanded="true" signature="2219:2331" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="2341:2507" ph="/// 获取索引为index的结点的信息 ... " />
+            <marker date="1516568508000" expanded="true" signature="2550:2603" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="2613:2768" ph="/// 设置索引为index的结点为v结点 ... " />
+            <marker date="1516568508000" expanded="true" signature="2818:2868" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="2878:3036" ph="/// 设置索引为index的结点的值为v ... " />
+            <marker date="1516568508000" expanded="true" signature="3080:3135" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="3145:3356" ph="/// 获取mat[index1,index2]的值，即判断这两个结点之间有没有相互连接 ... " />
+            <marker date="1516568508000" expanded="true" signature="3406:3466" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="3476:3640" ph="/// 设置mat[index1,index2]的值，即让这两个点连接 ... " />
+            <marker date="1516568508000" expanded="true" signature="3691:3785" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="3795:3923" ph="/// 判断V是否是图的顶点 ... " />
+            <marker date="1516568508000" expanded="true" signature="3961:4189" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="4017:4152" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="4069:4138" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="4199:4337" ph="/// 获取顶点v在顶点数组中的索引 ... " />
+            <marker date="1516568508000" expanded="true" signature="4376:4572" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="4466:4539" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="4646:4699" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="4734:4780" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="4790:4998" ph="/// 本来是给两个顶点之间加一个权值为多少的边的，但是这是无向表，权值没用，so，改成了链接两个表 ... " />
+            <marker date="1516568508000" expanded="true" signature="5050:5267" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="5104:5208" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="5327:5578" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="5381:5485" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="5588:5719" ph="/// 删除结点的边 ... " />
+            <marker date="1516568508000" expanded="true" signature="5771:5957" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="5813:5947" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="5967:6136" ph="/// 判断两个顶点之间是否有边 ... " />
+            <marker date="1516568508000" expanded="true" signature="6187:6460" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="6241:6351" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="6521:10499" ph="领接表图" />
+            <marker date="1516568508000" expanded="false" signature="6539:6632" ph="/// 领接表的存储结构节点图 ... " />
+            <marker date="1516568508000" expanded="true" signature="6667:7101" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="6785:6867" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="6906:6984" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="7024:7095" ph="{...}" />
+            <marker date="1516568508000" expanded="false" signature="7107:7210" ph="/// 顶点节点类，包括了顶点的数据信息和存储结构 ... " />
+            <marker date="1516568508000" expanded="true" signature="7238:7931" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="7347:7425" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="7468:7554" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="7592:7671" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="7737:7825" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="7851:7925" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="7980:10483" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="8139:8237" ph="{...}" />
+            <marker date="1516568508000" expanded="false" signature="8310:8408" ph="/// 构造函数 ... " />
+            <marker date="1516568508000" expanded="true" signature="8456:8695" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="8569:8685" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="8732:8787" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="8822:9149" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="8904:9112" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="9005:9098" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="9188:9422" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="9247:9385" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="9302:9371" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="9462:9734" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="9523:9701" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="9590:9687" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="9794:9863" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="9916:9985" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="10037:10477" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="10095:10206" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="10325:10440" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/006树结构/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1516451356000" expanded="false" signature="6:115" ph="..." />
-            <marker date="1516451356000" expanded="true" signature="130:10402" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="152:2020" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="205:891" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="276:704" ph="/* Test ... */" />
-            <marker date="1516451356000" expanded="true" signature="717:812" ph="/* BiTree&lt;int&gt; nini = RandomGenerator_BitTree(100); ... */" />
-            <marker date="1516451356000" expanded="true" signature="993:2014" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="1714:1874" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="2027:2075" ph="/// 二叉树的节点类 ... " />
-            <marker date="1516451356000" expanded="true" signature="2093:3204" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="2268:2502" ph="/// Construction of the Tree Node ... " />
-            <marker date="1516451356000" expanded="true" signature="2553:2647" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="2692:2793" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="2821:2943" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="2966:3095" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="3105:3198" ph="/* ========================CONSTRUCTION FIELD ... */" />
-            <marker date="1516451356000" expanded="true" signature="3225:10400" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="3339:3384" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="3414:3498" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="3552:3700" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="3709:3802" ph="/* ========================CONSTRUCTION FIELD ... */" />
-            <marker date="1516451356000" expanded="true" signature="3812:3957" ph="/// 判断是否是空二叉树 ... " />
-            <marker date="1516451356000" expanded="true" signature="3987:4112" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="4122:4217" ph="/// 获取根节点 ... " />
-            <marker date="1516451356000" expanded="true" signature="4247:4292" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="4302:4443" ph="/// 获取节点的左子节点 ... " />
-            <marker date="1516451356000" expanded="true" signature="4487:4536" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="4546:4687" ph="/// 获取节点的右子节点 ... " />
-            <marker date="1516451356000" expanded="true" signature="4731:4780" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="4790:4942" ph="/// 将节点p的左子树插入值为val的新节点 ... " />
-            <marker date="1516451356000" expanded="true" signature="4998:5066" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="5076:5228" ph="/// 将节点p的右子树插入值为val的新节点 ... " />
-            <marker date="1516451356000" expanded="true" signature="5284:5352" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="5362:5505" ph="/// 若节点不为空，则删除该节点的左子树 ... " />
-            <marker date="1516451356000" expanded="true" signature="5554:5772" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="5615:5672" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="5782:5925" ph="/// 若节点不为空，则删除该节点的右子树 ... " />
-            <marker date="1516451356000" expanded="true" signature="5974:6192" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="6035:6092" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="6202:6415" ph="/// 判断是否为叶子节点，即子节点存在但不存在子节点的子节点Is the leaf. ... " />
-            <marker date="1516451356000" expanded="true" signature="6460:6591" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="6600:6823" ph="/* ========================FUNCTION FIELD ... */" />
-            <marker date="1516451356000" expanded="true" signature="6833:6921" ph="/// 先序遍历，若二叉树为空，则结束遍历，否则： ... " />
-            <marker date="1516451356000" expanded="true" signature="7002:7609" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="7067:7599" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="7245:7394" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="7436:7585" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="7619:7707" ph="/// 中序遍历，若二叉树为空，则结束遍历，否则： ... " />
-            <marker date="1516451356000" expanded="true" signature="7786:8207" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="7851:8197" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="8217:8305" ph="/// 后序遍历，若二叉树为空，则结束遍历，否则： ... " />
-            <marker date="1516451356000" expanded="true" signature="8388:8759" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="8453:8749" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="8769:8877" ph="/// 层次遍历，我自己写的，完了对比对比能不能用 ... " />
-            <marker date="1516451356000" expanded="true" signature="8927:9710" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="9079:9504" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="9224:9336" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="9378:9490" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="9535:9700" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="9599:9686" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="9764:10322" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="9942:10312" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -318,123 +393,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1494">
           <caret line="87" column="29" lean-forward="false" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
-          <folding>
-            <marker date="1516451356000" expanded="false" signature="6:115" ph="..." />
-            <marker date="1516451356000" expanded="true" signature="130:10402" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="152:2020" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="205:891" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="276:704" ph="/* Test ... */" />
-            <marker date="1516451356000" expanded="true" signature="717:812" ph="/* BiTree&lt;int&gt; nini = RandomGenerator_BitTree(100); ... */" />
-            <marker date="1516451356000" expanded="true" signature="993:2014" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="1714:1874" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="2027:2075" ph="/// 二叉树的节点类 ... " />
-            <marker date="1516451356000" expanded="true" signature="2093:3204" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="2268:2502" ph="/// Construction of the Tree Node ... " />
-            <marker date="1516451356000" expanded="true" signature="2553:2647" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="2692:2793" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="2821:2943" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="2966:3095" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="3105:3198" ph="/* ========================CONSTRUCTION FIELD ... */" />
-            <marker date="1516451356000" expanded="true" signature="3225:10400" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="3339:3384" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="3414:3498" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="3552:3700" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="3709:3802" ph="/* ========================CONSTRUCTION FIELD ... */" />
-            <marker date="1516451356000" expanded="true" signature="3812:3957" ph="/// 判断是否是空二叉树 ... " />
-            <marker date="1516451356000" expanded="true" signature="3987:4112" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="4122:4217" ph="/// 获取根节点 ... " />
-            <marker date="1516451356000" expanded="true" signature="4247:4292" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="4302:4443" ph="/// 获取节点的左子节点 ... " />
-            <marker date="1516451356000" expanded="true" signature="4487:4536" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="4546:4687" ph="/// 获取节点的右子节点 ... " />
-            <marker date="1516451356000" expanded="true" signature="4731:4780" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="4790:4942" ph="/// 将节点p的左子树插入值为val的新节点 ... " />
-            <marker date="1516451356000" expanded="true" signature="4998:5066" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="5076:5228" ph="/// 将节点p的右子树插入值为val的新节点 ... " />
-            <marker date="1516451356000" expanded="true" signature="5284:5352" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="5362:5505" ph="/// 若节点不为空，则删除该节点的左子树 ... " />
-            <marker date="1516451356000" expanded="true" signature="5554:5772" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="5615:5672" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="5782:5925" ph="/// 若节点不为空，则删除该节点的右子树 ... " />
-            <marker date="1516451356000" expanded="true" signature="5974:6192" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="6035:6092" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="6202:6415" ph="/// 判断是否为叶子节点，即子节点存在但不存在子节点的子节点Is the leaf. ... " />
-            <marker date="1516451356000" expanded="true" signature="6460:6591" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="6600:6823" ph="/* ========================FUNCTION FIELD ... */" />
-            <marker date="1516451356000" expanded="true" signature="6833:6921" ph="/// 先序遍历，若二叉树为空，则结束遍历，否则： ... " />
-            <marker date="1516451356000" expanded="true" signature="7002:7609" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="7067:7599" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="7245:7394" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="7436:7585" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="7619:7707" ph="/// 中序遍历，若二叉树为空，则结束遍历，否则： ... " />
-            <marker date="1516451356000" expanded="true" signature="7786:8207" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="7851:8197" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="8217:8305" ph="/// 后序遍历，若二叉树为空，则结束遍历，否则： ... " />
-            <marker date="1516451356000" expanded="true" signature="8388:8759" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="8453:8749" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="8769:8877" ph="/// 层次遍历，我自己写的，完了对比对比能不能用 ... " />
-            <marker date="1516451356000" expanded="true" signature="8927:9710" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="9079:9504" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="9224:9336" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="9378:9490" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="9535:9700" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="9599:9686" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="9764:10322" ph="{...}" />
-            <marker date="1516451356000" expanded="true" signature="9942:10312" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_007图/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="1266">
+          <caret line="421" column="7" lean-forward="false" selection-start-line="421" selection-start-column="7" selection-end-line="421" selection-end-column="7" />
           <folding>
-            <marker date="1516461456000" expanded="true" signature="30:5812" ph="{...}" />
-            <marker date="1516461456000" expanded="true" signature="59:176" ph="{...}" />
-            <marker date="1516461456000" expanded="true" signature="112:170" ph="{...}" />
-            <marker date="1516461456000" expanded="false" signature="182:268" ph="/// 结点构造 ... " />
-            <marker date="1516461456000" expanded="true" signature="293:498" ph="{...}" />
-            <marker date="1516461456000" expanded="true" signature="346:424" ph="{...}" />
-            <marker date="1516461456000" expanded="true" signature="450:492" ph="{...}" />
-            <marker date="1516461456000" expanded="false" signature="504:590" ph="/// 图的接口 ... " />
-            <marker date="1516461456000" expanded="true" signature="621:934" ph="{...}" />
-            <marker date="1516461456000" expanded="true" signature="696:736" ph="/* 获取边或弧的数量 ... */" />
-            <marker date="1516461456000" expanded="false" signature="940:1034" ph="/// 一个无向图的领接矩阵类  ... " />
-            <marker date="1516461456000" expanded="false" signature="1078:5810" ph="{...}" />
-            <marker date="1516461456000" expanded="true" signature="1225:1305" ph="{...}" />
-            <marker date="1516461456000" expanded="false" signature="1401:1496" ph="/// 构造函数 ... " />
-            <marker date="1516461456000" expanded="true" signature="1530:1642" ph="{...}" />
-            <marker date="1516461456000" expanded="false" signature="1652:1818" ph="/// 获取索引为index的结点的信息 ... " />
-            <marker date="1516461456000" expanded="true" signature="1861:1914" ph="{...}" />
-            <marker date="1516461456000" expanded="false" signature="1924:2079" ph="/// 设置索引为index的结点为v结点 ... " />
-            <marker date="1516461456000" expanded="true" signature="2129:2179" ph="{...}" />
-            <marker date="1516461456000" expanded="false" signature="2189:2347" ph="/// 设置索引为index的结点的值为v ... " />
-            <marker date="1516461456000" expanded="true" signature="2391:2446" ph="{...}" />
-            <marker date="1516461456000" expanded="false" signature="2456:2667" ph="/// 获取mat[index1,index2]的值，即判断这两个结点之间有没有相互连接 ... " />
-            <marker date="1516461456000" expanded="true" signature="2717:2777" ph="{...}" />
-            <marker date="1516461456000" expanded="false" signature="2787:2951" ph="/// 设置mat[index1,index2]的值，即让这两个点连接 ... " />
-            <marker date="1516461456000" expanded="true" signature="3002:3096" ph="{...}" />
-            <marker date="1516461456000" expanded="false" signature="3106:3234" ph="/// 判断V是否是图的顶点 ... " />
-            <marker date="1516461456000" expanded="true" signature="3272:3500" ph="{...}" />
-            <marker date="1516461456000" expanded="true" signature="3328:3463" ph="{...}" />
-            <marker date="1516461456000" expanded="true" signature="3380:3449" ph="{...}" />
-            <marker date="1516461456000" expanded="false" signature="3510:3648" ph="/// 获取顶点v在顶点数组中的索引 ... " />
-            <marker date="1516461456000" expanded="true" signature="3687:3883" ph="{...}" />
-            <marker date="1516461456000" expanded="true" signature="3777:3850" ph="{...}" />
-            <marker date="1516461456000" expanded="true" signature="3957:4010" ph="{...}" />
-            <marker date="1516461456000" expanded="true" signature="4045:4091" ph="{...}" />
-            <marker date="1516461456000" expanded="false" signature="4101:4309" ph="/// 本来是给两个顶点之间加一个权值为多少的边的，但是这是无向表，权值没用，so，改成了链接两个表 ... " />
-            <marker date="1516461456000" expanded="true" signature="4361:4578" ph="{...}" />
-            <marker date="1516461456000" expanded="true" signature="4415:4519" ph="{...}" />
-            <marker date="1516461456000" expanded="true" signature="4638:4889" ph="{...}" />
-            <marker date="1516461456000" expanded="true" signature="4692:4796" ph="{...}" />
-            <marker date="1516461456000" expanded="false" signature="4899:5030" ph="/// 删除结点的边 ... " />
-            <marker date="1516461456000" expanded="true" signature="5082:5268" ph="{...}" />
-            <marker date="1516461456000" expanded="true" signature="5124:5258" ph="{...}" />
-            <marker date="1516461456000" expanded="false" signature="5278:5447" ph="/// 判断两个顶点之间是否有边 ... " />
-            <marker date="1516461456000" expanded="true" signature="5498:5771" ph="{...}" />
-            <marker date="1516461456000" expanded="true" signature="5552:5662" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="6:66" ph="..." />
+            <marker date="1516568508000" expanded="true" signature="83:10501" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="112:229" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="165:223" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="235:6515" ph="基本（领接矩阵）图" />
+            <marker date="1516568508000" expanded="false" signature="258:344" ph="/// 结点构造 ... " />
+            <marker date="1516568508000" expanded="false" signature="369:574" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="422:500" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="526:568" ph="{...}" />
+            <marker date="1516568508000" expanded="false" signature="580:666" ph="/// 图的接口 ... " />
+            <marker date="1516568508000" expanded="true" signature="697:1623" ph="{...}" />
+            <marker date="1516568508000" expanded="false" signature="712:800" ph="/// 获取顶点的个数 ... " />
+            <marker date="1516568508000" expanded="false" signature="840:929" ph="/// 获取边或弧的数量 ... " />
+            <marker date="1516568508000" expanded="false" signature="967:1147" ph="/// 在两个顶点之间添加一条权为v的边或弧 ... " />
+            <marker date="1516568508000" expanded="false" signature="1210:1345" ph="/// 删除顶点之间的边或弧 ... " />
+            <marker date="1516568508000" expanded="false" signature="1401:1572" ph="/// 判断两个顶点之间是否有边或弧 ... " />
+            <marker date="1516568508000" expanded="false" signature="1629:1723" ph="/// 一个无向图的领接矩阵类  ... " />
+            <marker date="1516568508000" expanded="false" signature="1767:6499" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="1914:1994" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="2090:2185" ph="/// 构造函数 ... " />
+            <marker date="1516568508000" expanded="true" signature="2219:2331" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="2341:2507" ph="/// 获取索引为index的结点的信息 ... " />
+            <marker date="1516568508000" expanded="true" signature="2550:2603" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="2613:2768" ph="/// 设置索引为index的结点为v结点 ... " />
+            <marker date="1516568508000" expanded="true" signature="2818:2868" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="2878:3036" ph="/// 设置索引为index的结点的值为v ... " />
+            <marker date="1516568508000" expanded="true" signature="3080:3135" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="3145:3356" ph="/// 获取mat[index1,index2]的值，即判断这两个结点之间有没有相互连接 ... " />
+            <marker date="1516568508000" expanded="true" signature="3406:3466" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="3476:3640" ph="/// 设置mat[index1,index2]的值，即让这两个点连接 ... " />
+            <marker date="1516568508000" expanded="true" signature="3691:3785" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="3795:3923" ph="/// 判断V是否是图的顶点 ... " />
+            <marker date="1516568508000" expanded="true" signature="3961:4189" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="4017:4152" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="4069:4138" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="4199:4337" ph="/// 获取顶点v在顶点数组中的索引 ... " />
+            <marker date="1516568508000" expanded="true" signature="4376:4572" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="4466:4539" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="4646:4699" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="4734:4780" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="4790:4998" ph="/// 本来是给两个顶点之间加一个权值为多少的边的，但是这是无向表，权值没用，so，改成了链接两个表 ... " />
+            <marker date="1516568508000" expanded="true" signature="5050:5267" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="5104:5208" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="5327:5578" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="5381:5485" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="5588:5719" ph="/// 删除结点的边 ... " />
+            <marker date="1516568508000" expanded="true" signature="5771:5957" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="5813:5947" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="5967:6136" ph="/// 判断两个顶点之间是否有边 ... " />
+            <marker date="1516568508000" expanded="true" signature="6187:6460" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="6241:6351" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="6521:10499" ph="领接表图" />
+            <marker date="1516568508000" expanded="false" signature="6539:6632" ph="/// 领接表的存储结构节点图 ... " />
+            <marker date="1516568508000" expanded="true" signature="6667:7101" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="6785:6867" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="6906:6984" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="7024:7095" ph="{...}" />
+            <marker date="1516568508000" expanded="false" signature="7107:7210" ph="/// 顶点节点类，包括了顶点的数据信息和存储结构 ... " />
+            <marker date="1516568508000" expanded="true" signature="7238:7931" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="7347:7425" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="7468:7554" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="7592:7671" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="7737:7825" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="7851:7925" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="7980:10483" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="8139:8237" ph="{...}" />
+            <marker date="1516568508000" expanded="false" signature="8310:8408" ph="/// 构造函数 ... " />
+            <marker date="1516568508000" expanded="true" signature="8456:8695" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="8569:8685" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="8732:8787" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="8822:9149" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="8904:9112" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="9005:9098" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="9188:9422" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="9247:9385" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="9302:9371" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="9462:9734" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="9523:9701" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="9590:9687" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="9794:9863" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="9916:9985" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="10037:10477" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="10095:10206" ph="{...}" />
+            <marker date="1516568508000" expanded="true" signature="10325:10440" ph="{...}" />
           </folding>
         </state>
       </provider>
