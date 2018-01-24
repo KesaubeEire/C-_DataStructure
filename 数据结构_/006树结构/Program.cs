@@ -332,10 +332,11 @@ namespace 树结构
 
         //设置一个队列装载所有的顺序队列
         //这招真他妈好用
+        Queue<Node<T>> sq = new Queue<Node<T>>(1000);
+
         public void LevelOrder_Mine(Node<T> root)
         {
             int trigger = 0;
-            Queue<Node<T>> sq = new Queue<Node<T>>(1000);
             if (root == null) return;
             else
             {
