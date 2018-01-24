@@ -114,7 +114,7 @@
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/006树结构/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1042">
+            <state relative-caret-position="4860">
               <caret line="334" column="53" lean-forward="false" selection-start-line="334" selection-start-column="53" selection-end-line="334" selection-end-column="53" />
               <folding>
                 <marker date="1516693401000" expanded="false" signature="6:115" ph="..." />
@@ -187,8 +187,8 @@
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LeetCode命名小工具/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="375">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <marker date="1516701467000" expanded="true" signature="38:575" ph="{...}" />
                 <marker date="1516701467000" expanded="true" signature="67:573" ph="{...}" />
@@ -340,12 +340,12 @@
       <workItem from="1516451082586" duration="598000" />
       <workItem from="1516453989326" duration="8672000" />
       <workItem from="1516551685823" duration="5131000" />
-      <workItem from="1516629819754" duration="5596000" />
+      <workItem from="1516629819754" duration="6738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19997000" />
+    <option name="totallyTimeSpent" value="21139000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -358,13 +358,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="23" width="1080" height="1893" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11037891" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11037891" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -594,6 +593,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/006树结构/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4860">
+          <caret line="334" column="53" lean-forward="false" selection-start-line="334" selection-start-column="53" selection-end-line="334" selection-end-column="53" />
+          <folding>
+            <marker date="1516693401000" expanded="false" signature="6:115" ph="..." />
+            <marker date="1516693401000" expanded="true" signature="130:10399" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="152:2020" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="205:891" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="276:704" ph="/* Test ... */" />
+            <marker date="1516693401000" expanded="true" signature="717:812" ph="/* BiTree&lt;int&gt; nini = RandomGenerator_BitTree(100); ... */" />
+            <marker date="1516693401000" expanded="true" signature="993:2014" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="1714:1874" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="2027:2075" ph="/// 二叉树的节点类 ... " />
+            <marker date="1516693401000" expanded="true" signature="2093:3204" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="2268:2502" ph="/// Construction of the Tree Node ... " />
+            <marker date="1516693401000" expanded="true" signature="2553:2647" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="2692:2793" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="2821:2943" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="2966:3095" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="3105:3198" ph="/* ========================CONSTRUCTION FIELD ... */" />
+            <marker date="1516693401000" expanded="true" signature="3225:10397" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="3339:3384" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="3414:3498" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="3552:3700" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="3709:3802" ph="/* ========================CONSTRUCTION FIELD ... */" />
+            <marker date="1516693401000" expanded="true" signature="3812:3957" ph="/// 判断是否是空二叉树 ... " />
+            <marker date="1516693401000" expanded="true" signature="3987:4112" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="4122:4217" ph="/// 获取根节点 ... " />
+            <marker date="1516693401000" expanded="true" signature="4247:4292" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="4302:4443" ph="/// 获取节点的左子节点 ... " />
+            <marker date="1516693401000" expanded="true" signature="4487:4536" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="4546:4687" ph="/// 获取节点的右子节点 ... " />
+            <marker date="1516693401000" expanded="true" signature="4731:4780" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="4790:4942" ph="/// 将节点p的左子树插入值为val的新节点 ... " />
+            <marker date="1516693401000" expanded="true" signature="4998:5066" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="5076:5228" ph="/// 将节点p的右子树插入值为val的新节点 ... " />
+            <marker date="1516693401000" expanded="true" signature="5284:5352" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="5362:5505" ph="/// 若节点不为空，则删除该节点的左子树 ... " />
+            <marker date="1516693401000" expanded="true" signature="5554:5772" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="5615:5672" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="5782:5925" ph="/// 若节点不为空，则删除该节点的右子树 ... " />
+            <marker date="1516693401000" expanded="true" signature="5974:6192" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="6035:6092" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="6202:6415" ph="/// 判断是否为叶子节点，即子节点存在但不存在子节点的子节点Is the leaf. ... " />
+            <marker date="1516693401000" expanded="true" signature="6460:6591" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="6600:6823" ph="/* ========================FUNCTION FIELD ... */" />
+            <marker date="1516693401000" expanded="true" signature="6833:6921" ph="/// 先序遍历，若二叉树为空，则结束遍历，否则： ... " />
+            <marker date="1516693401000" expanded="true" signature="7002:7609" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="7067:7599" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="7245:7394" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="7436:7585" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="7619:7707" ph="/// 中序遍历，若二叉树为空，则结束遍历，否则： ... " />
+            <marker date="1516693401000" expanded="true" signature="7786:8207" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="7851:8197" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="8217:8305" ph="/// 后序遍历，若二叉树为空，则结束遍历，否则： ... " />
+            <marker date="1516693401000" expanded="true" signature="8388:8759" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="8453:8749" ph="{...}" />
+            <marker date="1516693401000" expanded="false" signature="8769:8877" ph="/// 层次遍历，我自己写的，完了对比对比能不能用 ... " />
+            <marker date="1516693401000" expanded="true" signature="8982:9707" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="9076:9501" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="9221:9333" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="9375:9487" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="9532:9697" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="9596:9683" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="9761:10319" ph="{...}" />
+            <marker date="1516693401000" expanded="true" signature="9939:10309" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_007图/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5550">
@@ -687,81 +757,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/006树结构/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1042">
-          <caret line="334" column="53" lean-forward="false" selection-start-line="334" selection-start-column="53" selection-end-line="334" selection-end-column="53" />
-          <folding>
-            <marker date="1516693401000" expanded="false" signature="6:115" ph="..." />
-            <marker date="1516693401000" expanded="true" signature="130:10399" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="152:2020" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="205:891" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="276:704" ph="/* Test ... */" />
-            <marker date="1516693401000" expanded="true" signature="717:812" ph="/* BiTree&lt;int&gt; nini = RandomGenerator_BitTree(100); ... */" />
-            <marker date="1516693401000" expanded="true" signature="993:2014" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="1714:1874" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="2027:2075" ph="/// 二叉树的节点类 ... " />
-            <marker date="1516693401000" expanded="true" signature="2093:3204" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="2268:2502" ph="/// Construction of the Tree Node ... " />
-            <marker date="1516693401000" expanded="true" signature="2553:2647" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="2692:2793" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="2821:2943" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="2966:3095" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="3105:3198" ph="/* ========================CONSTRUCTION FIELD ... */" />
-            <marker date="1516693401000" expanded="true" signature="3225:10397" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="3339:3384" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="3414:3498" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="3552:3700" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="3709:3802" ph="/* ========================CONSTRUCTION FIELD ... */" />
-            <marker date="1516693401000" expanded="true" signature="3812:3957" ph="/// 判断是否是空二叉树 ... " />
-            <marker date="1516693401000" expanded="true" signature="3987:4112" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="4122:4217" ph="/// 获取根节点 ... " />
-            <marker date="1516693401000" expanded="true" signature="4247:4292" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="4302:4443" ph="/// 获取节点的左子节点 ... " />
-            <marker date="1516693401000" expanded="true" signature="4487:4536" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="4546:4687" ph="/// 获取节点的右子节点 ... " />
-            <marker date="1516693401000" expanded="true" signature="4731:4780" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="4790:4942" ph="/// 将节点p的左子树插入值为val的新节点 ... " />
-            <marker date="1516693401000" expanded="true" signature="4998:5066" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="5076:5228" ph="/// 将节点p的右子树插入值为val的新节点 ... " />
-            <marker date="1516693401000" expanded="true" signature="5284:5352" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="5362:5505" ph="/// 若节点不为空，则删除该节点的左子树 ... " />
-            <marker date="1516693401000" expanded="true" signature="5554:5772" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="5615:5672" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="5782:5925" ph="/// 若节点不为空，则删除该节点的右子树 ... " />
-            <marker date="1516693401000" expanded="true" signature="5974:6192" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="6035:6092" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="6202:6415" ph="/// 判断是否为叶子节点，即子节点存在但不存在子节点的子节点Is the leaf. ... " />
-            <marker date="1516693401000" expanded="true" signature="6460:6591" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="6600:6823" ph="/* ========================FUNCTION FIELD ... */" />
-            <marker date="1516693401000" expanded="true" signature="6833:6921" ph="/// 先序遍历，若二叉树为空，则结束遍历，否则： ... " />
-            <marker date="1516693401000" expanded="true" signature="7002:7609" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="7067:7599" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="7245:7394" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="7436:7585" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="7619:7707" ph="/// 中序遍历，若二叉树为空，则结束遍历，否则： ... " />
-            <marker date="1516693401000" expanded="true" signature="7786:8207" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="7851:8197" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="8217:8305" ph="/// 后序遍历，若二叉树为空，则结束遍历，否则： ... " />
-            <marker date="1516693401000" expanded="true" signature="8388:8759" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="8453:8749" ph="{...}" />
-            <marker date="1516693401000" expanded="false" signature="8769:8877" ph="/// 层次遍历，我自己写的，完了对比对比能不能用 ... " />
-            <marker date="1516693401000" expanded="true" signature="8982:9707" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="9076:9501" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="9221:9333" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="9375:9487" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="9532:9697" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="9596:9683" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="9761:10319" ph="{...}" />
-            <marker date="1516693401000" expanded="true" signature="9939:10309" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode命名小工具/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="375">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <marker date="1516701467000" expanded="true" signature="38:575" ph="{...}" />
             <marker date="1516701467000" expanded="true" signature="67:573" ph="{...}" />
